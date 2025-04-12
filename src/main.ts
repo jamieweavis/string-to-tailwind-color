@@ -37,10 +37,3 @@ export const stringToTailwindColor = <
 
   return colorPool[stringHash % colorPool.length];
 };
-
-const foo = stringToTailwindColor('foo', {
-  colors: ['red', 'green', 'blue'],
-  shades: [300, 500, 700],
-});
-
-console.log(foo); // 'red-300'
