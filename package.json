@@ -1,7 +1,7 @@
 {
   "name": "string-to-tailwind-color",
   "description": "Generates a random but deterministic Tailwind CSS color and shade from a string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jamie Weavis",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
@@ -11,7 +11,9 @@
   "bugs": {
     "url": "https://github.com/jamieweavis/string-to-tailwind-color/issues"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "keywords": [
     "tailwindcss",
     "string-to-color",
@@ -61,7 +63,9 @@
     "typescript": "^5.8.3"
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "plugins": [
       "@semantic-release/changelog",
       "@semantic-release/commit-analyzer",
@@ -72,10 +76,15 @@
     ]
   },
   "lint-staged": {
-    "*.ts": ["biome format --write", "biome lint --write"]
+    "*.ts": [
+      "biome format --write",
+      "biome lint --write"
+    ]
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "jest": {
     "preset": "ts-jest",
