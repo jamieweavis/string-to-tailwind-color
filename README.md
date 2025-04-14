@@ -1,6 +1,6 @@
 # String to Tailwind Color
 
-> Generates a random but deterministic Tailwind CSS color and shade from a string
+Generates a random but deterministic Tailwind CSS color and shade from a string
 
 [![ci](https://github.com/jamieweavis/string-to-tailwind-color/workflows/ci/badge.svg)](https://github.com/jamieweavis/string-to-tailwind-color/actions)
 [![downloads](https://img.shields.io/npm/dt/string-to-tailwind-color.svg)](https://npmjs.com/package/string-to-tailwind-color)
