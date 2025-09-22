@@ -1,6 +1,7 @@
 import { stringToTailwindColor } from '../main';
 
 describe('stringToTailwindColor', () => {
+  // biome-ignore lint/suspicious/noTemplateCurlyInString: example
   it('should return a string in the format of `${Color}-${Shade}`', () => {
     const result = stringToTailwindColor('test');
     expect(result).toMatch(/^[a-z]+-\d+$/);
