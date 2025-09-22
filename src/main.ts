@@ -1,8 +1,8 @@
 import {
-  type TailwindColor,
-  type TailwindShade,
   defaultColors,
   defaultShades,
+  type TailwindColor,
+  type TailwindShade,
 } from './tailwind';
 
 interface StringToColorOptions<
