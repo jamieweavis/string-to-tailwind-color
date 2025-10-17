@@ -44,7 +44,7 @@ console.log(foo); // 'red-300'
 > For a full list of colors and shades see [https://tailwindcss.com/docs/colors](https://tailwindcss.com/docs/colors)
 
 
-If you don't like the color generated for a particular string, you can use the `hashOffset` option to rotate the color (incrememnting by 1 will give you a shade higher, decrementing by 1 will give you a shade lower, colors will also rotate):
+If you don't like the color generated for a particular string, you can use the `hashOffset` option to rotate the color (incrementing by 1 will give you a shade higher, decrementing by 1 will give you a shade lower, colors will also rotate):
 
 ```javascript
 import { stringToTailwindColor } from 'string-to-tailwind-color';
