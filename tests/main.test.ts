@@ -1,4 +1,6 @@
-import { stringToTailwindColor } from '../main';
+import { describe, expect, it } from 'vitest';
+
+import { stringToTailwindColor } from '../src/main';
 
 describe('stringToTailwindColor', () => {
   // biome-ignore lint/suspicious/noTemplateCurlyInString: example

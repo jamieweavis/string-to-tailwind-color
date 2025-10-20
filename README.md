@@ -131,7 +131,7 @@ cd string-to-tailwind-color
 pnpm install
 ```
 
-Run all tests with [Jest](https://github.com/jestjs/jest):
+Run all tests with [Vitest](https://github.com/vitest-dev/vitest):
 
 ```sh
 pnpm test

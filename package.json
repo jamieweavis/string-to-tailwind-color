@@ -33,9 +33,9 @@
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
-    "test": "jest --testMatch '/**/*.test.ts'",
-    "test:watch": "pnpm test --watch",
-    "test:coverage": "pnpm test --coverage",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "check": "biome check",
     "check:fix": "biome check --fix"
   },
@@ -49,13 +49,11 @@
     "@semantic-release/github": "12.0.0",
     "@semantic-release/npm": "13.1.1",
     "@semantic-release/release-notes-generator": "14.1.0",
-    "@types/jest": "30.0.0",
     "@types/node": "22.18.11",
-    "jest": "30.2.0",
+    "@vitest/coverage-v8": "3.2.4",
     "parcel": "2.16.0",
-    "ts-jest": "29.4.5",
-    "ts-node": "10.9.2",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
   },
   "release": {
     "branches": [
@@ -69,9 +67,5 @@
       "@semantic-release/github",
       "@semantic-release/release-notes-generator"
     ]
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node"
   }
 }
