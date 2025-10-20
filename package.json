@@ -39,8 +39,8 @@
     "test": "jest --testMatch '/**/*.test.ts'",
     "test:watch": "pnpm test --watch",
     "test:coverage": "pnpm test --coverage",
-    "check": "biome check ./src",
-    "check:write": "biome check ./src --write"
+    "check": "biome check",
+    "check:fix": "biome check --fix"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.6",
