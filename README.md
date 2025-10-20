@@ -4,7 +4,7 @@ Generates a random but deterministic Tailwind CSS color and shade from a string
 
 [![ci](https://github.com/jamieweavis/string-to-tailwind-color/workflows/ci/badge.svg)](https://github.com/jamieweavis/string-to-tailwind-color/actions)
 [![dependencies](https://img.shields.io/badge/dependencies-0-green)](https://npmjs.com/package/string-to-tailwind-color)
-[![coverage](https://img.shields.io/badge/coverage-100%25-green)](https://npmjs.com/package/total-package-downloads)
+[![coverage](https://img.shields.io/badge/coverage-100%25-green)](https://npmjs.com/package/string-to-tailwind-color)
 [![downloads](https://img.shields.io/npm/dt/string-to-tailwind-color.svg)](https://npmjs.com/package/string-to-tailwind-color)
 [![version](https://img.shields.io/npm/v/string-to-tailwind-color.svg)](https://github.com/jamieweavis/string-to-tailwind-color/releases)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jamieweavis/string-to-tailwind-color/blob/main/LICENSE)
