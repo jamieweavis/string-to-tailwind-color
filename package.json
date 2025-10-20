@@ -3,8 +3,8 @@
   "description": "Generates a random but deterministic Tailwind CSS color and shade from a string",
   "version": "1.0.1",
   "author": "Jamie Weavis",
-  "main": "lib/main.js",
-  "types": "lib/main.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "source": "src/main.ts",
   "homepage": "https://github.com/jamieweavis/string-to-tailwind-color",
   "repository": "github:jamieweavis/string-to-tailwind-color",
@@ -19,7 +19,7 @@
     "url": "https://github.com/jamieweavis/string-to-tailwind-color/issues"
   },
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "keywords": [
     "tailwindcss",
