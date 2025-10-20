@@ -37,7 +37,8 @@
     "watch": "parcel watch",
     "build": "parcel build",
     "test": "jest --testMatch '/**/*.test.ts'",
-    "test:watch": "pnpm test -- --watch",
+    "test:watch": "pnpm test --watch",
+    "test:coverage": "pnpm test --coverage",
     "check": "biome check ./src",
     "check:write": "biome check ./src --write"
   },
