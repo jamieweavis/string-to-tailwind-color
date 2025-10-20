@@ -8,6 +8,12 @@
   "source": "src/main.ts",
   "homepage": "https://github.com/jamieweavis/string-to-tailwind-color",
   "license": "MIT",
+  "packageManager": "pnpm@10.0.0",
+  "type": "module",
+  "engine": {
+    "node": ">=18.0.0",
+    "pnpm": ">=10.0.0"
+  },
   "bugs": {
     "url": "https://github.com/jamieweavis/string-to-tailwind-color/issues"
   },
