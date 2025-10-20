@@ -9,7 +9,7 @@
   "homepage": "https://github.com/jamieweavis/string-to-tailwind-color",
   "repository": "github:jamieweavis/string-to-tailwind-color",
   "license": "MIT",
-  "packageManager": "pnpm@10.0.0",
+  "packageManager": "pnpm@10.18.3",
   "type": "module",
   "engine": {
     "node": ">=18.0.0",
