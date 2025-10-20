@@ -39,7 +39,7 @@
     "test": "jest --testMatch '/**/*.test.ts'",
     "test:watch": "pnpm test -- --watch",
     "check": "biome check ./src",
-    "check:write": "pnpm check -- --write"
+    "check:write": "biome check ./src --write"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.4",
