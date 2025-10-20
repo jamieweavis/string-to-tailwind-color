@@ -7,6 +7,7 @@
   "types": "lib/main.d.ts",
   "source": "src/main.ts",
   "homepage": "https://github.com/jamieweavis/string-to-tailwind-color",
+  "repository": "github:jamieweavis/string-to-tailwind-color",
   "license": "MIT",
   "packageManager": "pnpm@10.0.0",
   "type": "module",
@@ -29,10 +30,6 @@
     "color",
     "shade"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jamieweavis/string-to-tailwind-color.git"
-  },
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
