@@ -3,7 +3,7 @@ import {
   defaultShades,
   type TailwindColor,
   type TailwindShade,
-} from './tailwind';
+} from './tailwind.js';
 
 interface StringToColorOptions<
   Color extends TailwindColor = TailwindColor,

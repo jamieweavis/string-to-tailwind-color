@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "esModuleInterop": true,
-    "target": "es6",
-    "types": ["node"],
-    "outDir": "dist",
-    "moduleResolution": "Node"
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": [],
+    "rootDir": "src",
+    "outDir": "dist"
   },
-  "include": ["src"],
-  "exclude": ["tests"]
+  "include": ["src"]
 }
